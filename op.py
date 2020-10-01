@@ -1,7 +1,9 @@
 from tkinter import *
 from tkinter import messagebox
-import pymysql
-
+import pymysql  #---------> Here this module is not worth using
+# Instead of pymysql, I will consider you to use mysql.connector module for database 
+# To import type 'import mysql.connector' and all the other things will likely to be same! Thanks
+# To switch from this module to another, it will not take much time as your project is not that big.
 
 db=pymysql.connect("localhost","root","root","bbms")
 
